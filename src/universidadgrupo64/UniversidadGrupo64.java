@@ -1,21 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package universidadgrupo64;
 
-/**
- *
- * @author Asus
- */
+//import java.sql.Connection;
+
+import java.time.LocalDate;
+import universidadgrupo64.AccesoADatos.AlumnoData;
+import universidadgrupo64.Entidades.Alumno;
+
+//import universidadgrupo64.AccesoADatos.Conexion;
+
+
 public class UniversidadGrupo64 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
+        //Connection con = Conexion.getConexion();
+        Alumno juan=new Alumno(12312311,"Luna","Pedro",LocalDate.of(1980, 4, 25),true);
+        AlumnoData alu=new AlumnoData();
+        alu.guardarAlumno(juan);
+        
+        
     }
     
 }

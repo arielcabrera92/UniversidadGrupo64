@@ -3,7 +3,7 @@ package universidadgrupo64.Entidades;
 
 import java.time.LocalDate;
 
-public class Alumnos {
+public class Alumno {
     private int idAlumno;
     private int dni;
     private String apellido;
@@ -11,10 +11,10 @@ public class Alumnos {
     private LocalDate fechaNac;
     private boolean activo;
 
-    public Alumnos() {
+    public Alumno() {
     }
 
-    public Alumnos(int idAlumno, int dni, String apellido, String nombre, LocalDate fechaNac, boolean activo) {
+    public Alumno(int idAlumno, int dni, String apellido, String nombre, LocalDate fechaNac, boolean activo) {
         this.idAlumno = idAlumno;
         this.dni = dni;
         this.apellido = apellido;
@@ -23,7 +23,7 @@ public class Alumnos {
         this.activo = activo;
     }
 
-    public Alumnos(int dni, String apellido, String nombre, LocalDate fechaNac, boolean activo) {
+    public Alumno(int dni, String apellido, String nombre, LocalDate fechaNac, boolean activo) {
         this.dni = dni;
         this.apellido = apellido;
         this.nombre = nombre;
