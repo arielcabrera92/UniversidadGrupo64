@@ -19,9 +19,15 @@ public class UniversidadGrupo64 {
         AlumnoData alu=new AlumnoData();
         alu.guardarAlumno(juan);
         */
-        Alumno martin =new Alumno(34569874,"Funes","Martin",LocalDate.of(1980, 4, 25),true);
+        
+        /*Alumno martin =new Alumno(34569874,"Funes","Martin",LocalDate.of(1980, 4, 25),true);
         AlumnoData alu=new AlumnoData();
         alu.guardarAlumno(martin);
+        */
+        Alumno martin =new Alumno(25698789,"Gonzalez","Florencia",LocalDate.of(1978, 5, 19),true);
+        AlumnoData alu=new AlumnoData();
+        alu.guardarAlumno(martin);
+        
         
         
     }
